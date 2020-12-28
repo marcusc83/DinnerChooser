@@ -1,0 +1,8 @@
+D:\DinnerChooser\DinnerChooser.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+D:\DinnerChooser\DinnerChooser.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+D:\DinnerChooser\DinnerChooser.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+D:\DinnerChooser\DinnerChooser.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+D:\DinnerChooser\DinnerChooser.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+D:\DinnerChooser\DinnerChooser.iOS\obj\iPhone\Debug\optimized\
+D:\DinnerChooser\DinnerChooser.iOS\obj\iPhone\Debug\DinnerChooser.iOS.csprojAssemblyReference.cache
+D:\DinnerChooser\DinnerChooser.iOS\obj\iPhone\Debug\DinnerChooser.iOS.csproj.CoreCompileInputs.cache

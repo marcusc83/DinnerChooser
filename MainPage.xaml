@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DinnerChooser.MainPage"
+             BackgroundColor="DarkSeaGreen"
+             Padding="10,10,10,0">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Recent Choices"
+                     Activated ="RecentChoicePageActivated">
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout Margin="10,10,10,0">
+        <Label Text="Choose your dinner"
+               FontSize="32"
+               TextColor="white"
+               HorizontalOptions="CenterAndExpand"
+               VerticalTextAlignment="Start">
+        </Label>
+        <Entry Placeholder="Enter Genre of Food"
+               Margin="0,25"
+               IsSpellCheckEnabled="True"
+               IsTextPredictionEnabled="True"
+               TextChanged="FoodEntry_TextChanged">
+        </Entry>
+        <Entry Placeholder="Distance willing to travel in miles" Margin="0,25"
+              TextChanged="DistanceEntry_TextChanged">
+        </Entry>
+
+        <Button Text="Find Food"
+                Font="24"
+                TextColor="darkgreen"
+                BackgroundColor="white"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                WidthRequest="375"
+               Clicked="FindFoodClicked">
+        </Button>
+    </StackLayout>
+</ContentPage>

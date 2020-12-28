@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DinnerChooser.ResultsPage">
+   
+    <StackLayout>
+        <Label Text="Results" TextColor="Black" FontSize="34" FontAttributes="Bold"
+                   Margin="5,10,10,10" BackgroundColor="White" HorizontalOptions="Center"/>
+        <ListView x:Name="ListViewPlaces" HasUnevenRows="True" HeightRequest="250" 
+                  ItemSelected="ListViewPlaces_ItemSelected" SelectionMode="Single">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Margin="2">
+                            <Label Text="{Binding name}"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Label x:Name="LabelPlacesCount" TextColor="Black" FontSize="Body"
+               Text="Total # of Results: " HorizontalOptions="End" VerticalOptions="Start"/>
+        <Button x:Name="ButtonRandomSelector" BackgroundColor="Black" TextColor="White"
+                Text="Pick a Random option" HorizontalOptions="Center" VerticalOptions="Center"
+                WidthRequest="350" Padding="10" Clicked="ButtonRandomSelector_Clicked"/>
+        <Label x:Name="LabelRandomSelection" TextColor="Black" Margin="5" Padding="10"
+               HorizontalOptions="Center" VerticalOptions="Center"/>
+    </StackLayout> 
+</ContentPage>
