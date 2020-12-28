@@ -17,7 +17,7 @@ namespace DinnerChooser
         double lattitude;
         double longitude;
         CancellationTokenSource cts;
-        private static string apiKey = "AIzaSyCAsDXnzTL5XRtnTrFXot38Gt-LRFuF_z4";
+        private static string apiKey = "Your Api Key"
         private static string nearbyQuery = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=";
 
         public MainPage()
