@@ -15,7 +15,7 @@ namespace DinnerChooser
     public partial class ResultsPage : ContentPage
     {
         public IList<BuisnessModel.Result> Places;
-        private static string detailQuery = "https://maps.googleapis.com/maps/api/place/details/json?place_id={0}&fields=name,formatted_address,formatted_phone_number,website&key=AIzaSyCAsDXnzTL5XRtnTrFXot38Gt-LRFuF_z4";
+        private static string detailQuery = "https://maps.googleapis.com/maps/api/place/details/json?place_id={0}&fields=name,formatted_address,formatted_phone_number,website&key=YourAPIKEY";
 
 
         public ResultsPage(ObservableCollection<BuisnessModel.Result> places)
